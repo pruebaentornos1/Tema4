@@ -2,6 +2,11 @@
 public class Ej17 {
 
     public static void main(String[] args) {
+        /*
+         * Desplazar los elementos una posición a la derecha de tal forma que, 
+         * el valor del primer elemento pase a la segunda posición, el segundo a la tercera posición, 
+         * y así sucesivamente, ya el último pase a la primera posición.
+         */
         int v[]={7,56,89,23,58,9,99,23,44,22};
         int aux=v[v.length-1];
         

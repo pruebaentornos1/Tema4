@@ -2,6 +2,11 @@
 public class Ej18 {
 
     public static void main(String[] args) {
+        /*
+         * a) El primero se genera sumando 15 a los elementos que ocupan las posiciones impares del 
+         * vector original, dejando igual el resto de los elementos (índices desde el 0 hasta el 8).
+         * b) El segundo, se crea calculando el resto de dividir cada elemento del vector original entre 3.
+         */
         int v[]={7,56,89,23,58,9,99,23,44,22};
         
         int a[]=new int[v.length];
