@@ -11,4 +11,10 @@ public class Vectores {
        }
     }
     
+    public static int[] generarVector18 (int v[])
+    {
+        int w[]=new int[v.length];
+        
+        return w;
+    }    
 }
