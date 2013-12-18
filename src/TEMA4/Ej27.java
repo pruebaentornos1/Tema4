@@ -98,10 +98,19 @@ public class Ej27 {
          }
          System.out.println(" ");
          System.out.println(" ");
-         System.out.println("El dia ms caluroso del año es en el mes "+meses[indMes]+" el dia "+(indDia+1)+" con "+mt+" grados");
+         System.out.println("El dia mas caluroso del año es en el mes "+meses[indMes]+" el dia "+(indDia+1)+" con "+mt+" grados");
          
          //Apartado C *************************************************
          
+         int mes;
+         do
+         {
+             System.out.println("Dime el numero del del mes que deseas saber sus temperaturas");
+             mes=Leer.numEntero();
+         }
+         while (mes<1 || mes>12);
          
+         System.out.println("Las temperaturas de "+meses[mes-1]+" son: ");
+         Vectores.mostrarVector(m[mes-1]);
     }
 }
